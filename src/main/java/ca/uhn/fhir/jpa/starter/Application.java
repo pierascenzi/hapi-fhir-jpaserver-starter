@@ -30,9 +30,8 @@ public class Application extends SpringBootServletInitializer {
   public static void main(String[] args) {
 
     SpringApplication.run(Application.class, args);
-
-    //Server is now accessible at eg. http://localhost:8080/fhir/metadata
-    //UI is now accessible at http://localhost:8080/
+    //mvn spring-boot:run -Pboot
+    //UI is now accessible at http://localhost:8080/fhir/swagger-ui/
   }
 
   @Override
